@@ -13,7 +13,6 @@ $(document).ready(function(){
 console.log(winningMoves);
 
   var firstPlayer = true;
-  // var secondPlayer = true;
 
 
   $("td").click(function(){
@@ -27,20 +26,5 @@ console.log(winningMoves);
       }
   });
 
-  // function winnerCheck() {
-  //   if ($(this).addClass("X").html("X"){
-  //
-  //   } else {
-  //
-  //   }
-  // }
 
 });
-
-// need to have click event listener so x or o shows
-// another click shows another option
-
-
-//need a function to reognize a winner
-
-//different options to win
